@@ -761,9 +761,13 @@ class RobotCharacteristics():
             try:
                 self.classifying_joint_info[robot_name] = self._get_robot_joint_info(robot_name)
             except Exception as e:
-                print(f"error in processing {robot_name}: {str(e)}")
+                # the six models still awaiting redistribution permission are not in LEGO-assets
+                if 'Error opening file' in str(e) or isinstance(e, FileNotFoundError):
+                    print(f"skipping {robot_name}: model not included in LEGO-assets (see its README)")
+                else:
+                    print(f"error in processing {robot_name}: {str(e)}")
                 continue
-        print(f"RobotCharacteristics for {len(self.classifying_joint_info.keys())}initialized")
+        print(f"RobotCharacteristics for {len(self.classifying_joint_info.keys())} initialized")
     
     def _initialize_env(self,robot_name=None):
         """
