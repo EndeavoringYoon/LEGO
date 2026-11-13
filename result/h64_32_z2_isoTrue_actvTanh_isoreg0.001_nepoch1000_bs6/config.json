@@ -1,0 +1,18 @@
+{
+    "x_dim": [
+        120
+    ],
+    "h_dims": [
+        64,
+        32
+    ],
+    "z_dim": 2,
+    "num_epochs": 1000,
+    "lr": 0.001,
+    "loss_type": "l2",
+    "batch_size": 6,
+    "iso": true,
+    "iso_reg": 0.001,
+    "device": "cuda:0",
+    "actv": "Tanh"
+}
