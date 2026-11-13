@@ -1,0 +1,40 @@
+# --- Python / Jupyter ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+MUJOCO_LOG.TXT
+
+# --- OS / editor ---
+.DS_Store
+._*
+__MACOSX/
+.vscode/
+.idea/
+
+# --- Tutorial / experiment outputs ---
+notebook/tutorial/outputs/
+*.mp4
+*.avi
+*.gif
+
+# --- Third-party data that cannot be redistributed (see README "Data") ---
+data/smpl_model/
+data/mdm_motion/
+bvh/cmu_mocap_full_dataset/*
+!bvh/cmu_mocap_full_dataset/cmu_bvh/
+bvh/cmu_mocap_full_dataset/cmu_bvh/*
+!bvh/cmu_mocap_full_dataset/cmu_bvh/data/
+bvh/cmu_mocap_full_dataset/cmu_bvh/data/*
+!bvh/cmu_mocap_full_dataset/cmu_bvh/data/018/
+!bvh/cmu_mocap_full_dataset/cmu_bvh/data/079/
+!bvh/cmu_mocap_full_dataset/cmu_bvh/data/141/
+
+# --- Robot models live in the LEGO-assets repository (git submodule at asset/) ---
+# Locally `asset` may be a symlink to ../LEGO_assets until the submodule is added
+# (see tools/setup_asset_submodule.sh).
+/asset
+
+# --- Re-run outputs of the experiment notebooks (paper results stay untouched) ---
+notebook/ae_test/runs/
+notebook/ae_test/phase2_fix/

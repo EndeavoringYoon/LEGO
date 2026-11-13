@@ -1,0 +1,20 @@
+# Tested with Python 3.10 (conda env), MuJoCo 3.3.3
+mujoco==3.3.3
+torch>=2.0
+numpy<2
+scipy
+matplotlib
+moviepy==1.0.3
+opencv-python
+PyQt5
+networkx
+scikit-learn
+pandas
+termcolor
+pyautogui
+tqdm
+lxml
+adjustText
+mediapy
+ipython
+jupyterlab
