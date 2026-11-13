@@ -1,0 +1,3 @@
+[submodule "asset"]
+	path = asset
+	url = https://github.com/EndeavoringYoon/LEGO-assets.git

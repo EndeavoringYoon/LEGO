@@ -33,7 +33,6 @@ bvh/cmu_mocap_full_dataset/cmu_bvh/data/*
 # --- Robot models live in the LEGO-assets repository (git submodule at asset/) ---
 # Locally `asset` may be a symlink to ../LEGO_assets until the submodule is added
 # (see tools/setup_asset_submodule.sh).
-/asset
 
 # --- Re-run outputs of the experiment notebooks (paper results stay untouched) ---
 notebook/ae_test/runs/

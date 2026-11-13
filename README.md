@@ -1,6 +1,7 @@
 # LEGO: Latent-space Exploration for Geometry-aware Optimization of Humanoid Kinematic Design
 
-Official code for **LEGO** (ICRA 2026): [arXiv:2604.08636](https://arxiv.org/abs/2604.08636).
+Official code for **LEGO** (ICRA 2026): [IEEE Xplore](https://ieeexplore.ieee.org/document/11696066),
+[arXiv:2604.08636](https://arxiv.org/abs/2604.08636), [project page](https://jihwan-yoon-page.github.io/legopt/).
 
 LEGO encodes the kinematic structures of 30 existing humanoid robots into a
 compact latent space and searches that space for an upper-body kinematic design
@@ -170,11 +171,22 @@ Code adapted from IRVAE, CalciferZh/SMPL and OpenAI Gym keeps its original licen
 ## Citation
 
 ```bibtex
-@inproceedings{lego2026,
+@inproceedings{yoon2026lego,
   title     = {LEGO: Latent-space Exploration for Geometry-aware Optimization of Humanoid Kinematic Design},
-  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+  author    = {Yoon, Jihwan and Jeong, Taemoon and Park, Jeongeun and Kim, Chanwoo and Kwon, Jaewoon and
+               Lee, Yonghyeon and Lee, Kyungjae and Choi, Sungjoon},
+  booktitle = {2026 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages     = {6129--6136},
   year      = {2026},
-  eprint    = {2604.08636},
-  archivePrefix = {arXiv}
+  doi       = {10.1109/ICRA57385.2026.11696066}
 }
 ```
+
+## Acknowledgments
+
+This work was supported by Institute of Information & communications Technology Planning &
+Evaluation (IITP) grant funded by the Korea government (MSIT) (No. RS-2024-00457882, AI Research Hub
+Project, 50%), (No. RS-2022-II220871, Development of AI Autonomy and Knowledge Enhancement for AI
+Agent Collaboration, 25%), and by the Ministry of Trade, Industry and Energy (MOTIE), Korea, under the
+"Global Industrial Technology Cooperation Center program" supervised by the Korea Institute for
+Advancement of Technology (KIAT) (Grant No. P0028435, 25%).
