@@ -39,11 +39,11 @@ LEGO_code/
 
 ## Installation
 
-The robot models live in a separate repository, [LEGO-assets](https://github.com/<org>/LEGO-assets),
+The robot models live in a separate repository, [LEGO-assets](https://github.com/EndeavoringYoon/LEGO-assets),
 included as a submodule at `asset/`:
 
 ```bash
-git clone --recursive https://github.com/<org>/LEGO.git
+git clone --recursive https://github.com/EndeavoringYoon/LEGO.git
 # already cloned without --recursive?  git submodule update --init
 cd LEGO
 
@@ -140,7 +140,7 @@ optimization) or 05 (retargeting); tutorial 05 §7 walks through it. In your own
 ## Robot models
 
 The MuJoCo models of the 30 robots are kept in a separate repository,
-[LEGO-assets](https://github.com/<org>/LEGO-assets), because each model keeps its own
+[LEGO-assets](https://github.com/EndeavoringYoon/LEGO-assets), because each model keeps its own
 upstream license (several are non-commercial or share-alike). It is checked out at `asset/`.
 
 Six of the 30 models (Alex, JAXON, Pepper, Poppy Humanoid, Romeo, AgiBot X1) are not yet
@@ -154,7 +154,8 @@ without them**: only `00_data_preprocessing.ipynb` / `data_creation.ipynb` need 
 The code in this repository is released under the [Clear BSD License](LICENSE)
 (BSD-3-Clause-Clear), Copyright (c) 2026 Korea University Research and Business Foundation.
 This license grants no patent rights. Patent applications covering the method are pending in Korea
-and the US; for commercial licensing, please contact [contact].
+and the US; for commercial licensing, please contact the Korea University Research and Business
+Foundation.
 
 The license does **not** apply to the robot models in `asset/` (LEGO-assets), which are governed by
 their own upstream licenses.
